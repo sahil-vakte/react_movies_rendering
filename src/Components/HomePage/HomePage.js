@@ -1,10 +1,25 @@
-import React from 'react'
-import "./HomePage.css"
+import React, { useEffect, useState } from "react";
+import "./HomePage.css";
+import axios from "axios";
 
 const HomePage = () => {
-  return (
-    <div>HomePage</div>
-  )
-}
+  const createPost =() => {
+    axios
+      .post("https://hoblist.com/api/movieList", {
+        category: "Movies",
+        language: "kannada",
+        genre: "all",
+        sort: "voting",
+      })
+      .then((response) => {
+        console.log("response",response.data);
+      });
+  }
 
-export default HomePage
+
+  return <div>HomePage
+  <button onClick={createPost}>Submit</button>
+  </div>;
+};
+
+export default HomePage;

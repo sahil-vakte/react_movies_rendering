@@ -97,3 +97,9 @@
   font-size: 23px;
   color: gray;
 }
+
+@media (min-width: 320px) and (max-width: 425px) {
+.movies-page-main-div{
+    padding: 10px;
+}
+}

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./Signup.css";
-import swal from 'sweetalert';
-
+import swal from "sweetalert";
+import Navbar from "../Navbar/Navbar";
 
 const Signup = () => {
   const navigate = useNavigate();
@@ -28,13 +28,13 @@ const Signup = () => {
       swal({
         title: "Sign Up Successfull!!",
         icon: "success",
-      })
+      });
       navigate("/login");
     } else {
       swal({
         title: "Please Fill all the Details...",
         icon: "warning",
-      })
+      });
     }
   };
 

@@ -1,0 +1,99 @@
+.movies-page-flex-div {
+  display: flex;
+  justify-content: center;
+}
+
+.movies-page-width-div {
+  width: 100%;
+}
+
+.movies-page-main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.movies-details-page-card-main {
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.movies-details-page-card {
+  /* width: 100%; */
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.movies-details-page-card-sub-div-one {
+  width: 20%;
+}
+
+.movies-details-page-card-sub-div-two {
+  width: 30%;
+}
+
+.movies-details-page-card-sub-div-three {
+  width: 50%;
+}
+
+.movies-details-div-three-sub-one {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+.movies-details-title-div-one {
+  width: 50%;
+}
+
+.movies-details-title-div-two {
+  width: 50%;
+}
+
+.movies-img-tag {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.movies-details-sub-one-div-two {
+  display: flex;
+  justify-content: center;
+}
+
+.movies-details-title-div-one p {
+  color: gray;
+  margin: 0px;
+}
+
+.movies-details-title-div-two p {
+  margin: 0px;
+}
+
+.movies-details-page-card-two {
+  width: 100%;
+}
+
+.watch-trailer-btn {
+  width: 100%;
+  background-color: #00a5ff;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 5px;
+}
+
+.vote-arrow-tag {
+  height: 70px;
+  width: 70px;
+  cursor: pointer;
+}
+
+.movies-details-sub-one-div-two p {
+  margin: 0px;
+  font-size: 23px;
+  color: gray;
+}

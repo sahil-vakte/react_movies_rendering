@@ -1,0 +1,50 @@
+.nav-bar-flex-div{
+    display: flex;
+    justify-content: right;
+    padding: 20px;
+    background-color: #00a5ff;
+}
+
+.nav-bar-flex-div p{
+    margin: 0px;
+    cursor: pointer;
+    color: white;
+}
+
+.pop-up-flex-div{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+}
+
+.company-info-main-div{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.company-info-main-div h3{
+    width: 50%;
+}
+
+.company-info-main-div p{
+    width: 50%;
+}
+
+.company-info-main-div-card{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    /* background-color: wheat; */
+    background: linear-gradient(1deg, #00a5ff, white);
+}
+
+.close-btn-in-card{
+    color: #00a5ff;
+    cursor: pointer;
+}

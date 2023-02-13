@@ -11,13 +11,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  padding: 10px;
+  /* height: 100vh; */
 }
 
 .movies-details-page-card-main {
   border: 2px solid black;
   padding: 20px;
   border-radius: 10px;
+  height: 100vh;
+  overflow-y: scroll;
+  width: 500px;
 }
 
 .movies-details-page-card {
